@@ -38,12 +38,17 @@ html {
   font-family: "Input";
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  border-left: 2vmin solid #efe5e5;
   background-color: hsl(0, 0%, 5.1%);
   color: #efe5e5;
   margin: 0;
   padding: 4vmin;
-  max-width: 75rem;
+  min-height: 100vh;
 }
 
 h1 {
@@ -54,6 +59,7 @@ h1 {
 .main-header {
   display: flex;
   justify-content: space-between;
+  max-width: 75rem;
 }
 
 .logo {
