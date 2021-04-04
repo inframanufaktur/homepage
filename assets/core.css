@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Input";
+  src: url("fonts/subset-Input-Italic.woff2") format("woff2"),
+    url("fonts/subset-Input-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Input";
+  src: url("fonts/subset-Input-Bold.woff2") format("woff2"),
+    url("fonts/subset-Input-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Input";
+  src: url("fonts/subset-Input-BoldItalic.woff2") format("woff2"),
+    url("fonts/subset-Input-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Input";
+  src: url("fonts/subset-Input-Regular.woff2") format("woff2"),
+    url("fonts/subset-Input-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: "Input";
+}
+
+body {
+  background-color: hsl(0, 0%, 5.1%);
+  color: #efe5e5;
+  margin: 0;
+  padding: 4vmin;
+  max-width: 75rem;
+}
+
+h1 {
+  line-height: 1.1;
+  hyphens: auto;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 33%;
+  height: 33%;
+  max-width: 150px;
+}
